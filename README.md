@@ -27,7 +27,7 @@ Our analysis of the number of retiring employees show that:
     - It was determined that 90,398 employees will retire or become retirement eligible in the next few years.  Those employees 
     are broken down in the picture below that depicts the 7 roles they fulfill.
     
-    (https://github.com/PJ427/Pewlett-Hackard-Analysis/blob/main/Retiring%20Titles.PNG)
+    ![Retiring Titles](https://github.com/PJ427/Pewlett-Hackard-Analysis/blob/main/Retiring Titles.PNG)
     
     - There could be a potential knowledge pitfall due to the loss of so many senior staff members.
   
