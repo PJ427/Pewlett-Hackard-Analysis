@@ -21,11 +21,13 @@ Our analysis of the number of retiring employees show that:
 
 ## Summary:
 
-      o How many roles will need to be filled as the "silver tsunami" begins to make an impact?  It was determined that 90,398 employees will retire or become retirement eligible in the next few years.  Those employees are broken down in the picture below that depicts the 7 roles they fulfill.
+     o How many roles will need to be filled as the "silver tsunami" begins to make an impact?  It was determined that 90,398 employees will retire
+     or become retirement eligible in the next few years.  Those employees are broken down in the picture below that depicts the 7 roles they fulfill.
   
-  ![]
+  ![](Retiring Titles.PNG)
   
      o There could be a potential knowledge pitfall due to the loss of so many senior staff members.
   
-     o Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?  There are over 1900 employees in the pool of eligible candidates to become mentors for the next generation of employees.
+     o Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?  There are 
+     over 1900 employees in the pool of eligible candidates to become mentors for the next generation of employees.
   
