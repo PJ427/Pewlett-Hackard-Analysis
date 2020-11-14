@@ -1,10 +1,14 @@
 # Pewlett-Hackard-Analysis
 
-## Overview of the analysis: 
+## The "Silver Tsunami" 
 
-Explain the purpose of this analysis.
+The Pewlwett-Hackard leadership has discovered that many of their thousands of employees will become retriement elgible and potentially leaving the company.  They have tasked the HR department to convert the antiquated excel databases to SQL to 1. upgrade the system and 2. get a better picture of their personnel.  From this upgrade they are requesting how many and who, in particular, may be retiring or eligible for a retirement package and a list of potential employees for a new mentorship program
 
 ## Results: 
+
+Pewlett-Hackard had six original database (.CSV) files that we used to build an entity relationship diagram (ERD) to show the relationship between each file.
+
+![]
 
 Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
 
