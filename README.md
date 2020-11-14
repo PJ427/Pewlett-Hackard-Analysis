@@ -8,7 +8,7 @@ The Pewlwett-Hackard leadership has discovered that many of their thousands of e
 
 Pewlett-Hackard had six original database (.CSV) files that we used to build an entity relationship diagram (ERD) to show the relationship between each file.
 
-![]
+![]EmployeeDB.PNG
 
 Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
 
