@@ -26,7 +26,7 @@ How many roles will need to be filled as the "silver tsunami" begins to make an 
 
     - It was determined that 90,398 employees will retire or become retirement eligible in the next few years.  Those employees are broken down in the picture below that depicts the 7 roles they fulfill.
   
- ![](Retiring Titles.PNG)
+![](Retiring Titles.PNG)
  
      - There could be a potential knowledge pitfall due to the loss of so many senior staff members.
   
