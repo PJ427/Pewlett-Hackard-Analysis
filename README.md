@@ -12,6 +12,7 @@ Pewlett-Hackard had six original database (.CSV) files that we used to build an 
 </p> 
 Through the use of the ERD we were able to see the repationships and build the files necessary to answer the leaderships requirments.
 
+
 Our analysis of the number of retiring employees show that:
 
     1. 90k+ staff members are retirement eligible
