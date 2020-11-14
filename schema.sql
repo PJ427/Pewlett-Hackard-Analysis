@@ -36,13 +36,12 @@ CREATE TABLE salaries (
 );
 
 CREATE TABLE dept_emp (
-  dept_no VARCHAR (4) NOT NULL,
-  emp_no INT NOT NULL,
-  from_date DATE NOT NULL,
-  to_date DATE NOT NULL,
-  FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
-  FOREIGN KEY (dept_no) REFERENCES departments (dept_no),
-    PRIMARY KEY (dept_no, emp_no)
+	emp_no INT NOT NULL,
+	dept_no VARCHAR (4) NOT NULL,
+	from_date DATE NOT NULL,
+	to_date DATE NOT NULL,
+	FOREIGN KEY (dept_no) REFERENCES departments (dept_no),
+	PRIMARY KEY (emp_no, dept_no)
 );
 
 CREATE TABLE titles (
@@ -174,3 +173,38 @@ WHERE dept_name = 'Sales'
 SELECT emp_no, first_name, last_name, dept_name
 FROM dept_info
 WHERE dept_name IN ('Sales', 'Development');
+
+CREATE TABLE public.titles
+(
+    id integer NOT NULL DEFAULT nextval('titles_id_seq'::regclass),
+    emp_no integer NOT NULL,
+    title character varying COLLATE pg_catalog."default" NOT NULL,
+    from_date date NOT NULL,
+    to_date date NOT NULL,
+    CONSTRAINT titles_pkey PRIMARY KEY (id)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.titles
+    OWNER to postgres;
+
+--Create Mentorship Eligibilty Table
+SELECT DISTINCT ON (emp_no) e.emp_no, 
+	e.first_name, 
+	e.last_name, 
+	e.birth_date,
+	de.from_date,
+	de.to_date,
+	t.title
+INTO mentorship_elegibility
+FROM employees as e
+INNER JOIN dept_emp as de
+ON (e.emp_no = de.emp_no)
+INNER JOIN titles as t
+ON (e.emp_no = t.emp_no)
+WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+AND (de.to_date = '9999-01-01')
+ORDER BY e.emp_no ASC;
